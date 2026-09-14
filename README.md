@@ -51,13 +51,13 @@ I'm a CTO and Lead Software Engineer with a product-first engineering mindset. I
 
 ---
 
-### GitHub Stats
+### GitHub Activity
 
 <div align="center">
 
-![Michael's GitHub Stats](https://github-readme-stats.vercel.app/api?username=umeaclinton&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9)
+[![GitHub Streak](https://streak-stats.demolab.com?user=umeaclinton&theme=dark&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E)](https://git.io/streak-stats)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=umeaclinton&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=umeaclinton&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
