@@ -38,6 +38,29 @@ I'm a CTO and Lead Software Engineer who takes full ownership of the technical f
 
 ---
 
+### Flagship Projects
+
+**UMEAFCN Hub** - Automated Job, Scholarship & Internship Aggregation Platform
+[![Live](https://img.shields.io/badge/Live-umeafcnhub.online-3ECF8E?style=for-the-badge&logo=vercel&logoColor=white)](https://www.umeafcnhub.online)
+
+A full-stack automated platform for African professionals that scrapes multiple live job boards, generates AI-written SEO blog posts, and publishes them to production with zero manual intervention.
+
+- Engineered two independent GitHub Actions cron workflows scraping RSS feeds (MyJobMag, AfterSchoolAfrica) and remote job boards (Himalayas, Jobicy) with SHA-256 `guid_hash` deduplication at the database level
+- Built an AI blog generation engine using the Google Gemini API - reads trending job data from the database and auto-generates full SEO-optimised articles on a cron schedule with no human input
+- Designed a NeonDB serverless PostgreSQL schema with autoscaling compute (0.25 to 8 CU) and optimised cron frequency, reducing free tier compute usage from burnout in under a month down to ~8% per month
+- Diagnosed and resolved a critical 2-day post outage caused by a stale `DATABASE_URL` pointing to a pre-migration database after a Vercel environment variable mismatch
+- Integrated Telegram Bot API and Twitter API for automatic cross-platform publishing of every new job post with zero manual action
+
+| Layer | Stack |
+| :--- | :--- |
+| Frontend | Next.js 14 (App Router), React, TypeScript, Tailwind CSS |
+| Backend | Next.js API Routes (serverless), Node.js scripts (TypeScript) |
+| Database | NeonDB - PostgreSQL serverless with connection pooling |
+| Automation | GitHub Actions (cron scrapers + CI/CD), Google Gemini API |
+| Social | Telegram Bot API, Twitter API, Vercel |
+
+---
+
 ### Tech Stack
 
 **Frontend**
@@ -62,9 +85,11 @@ I'm a CTO and Lead Software Engineer who takes full ownership of the technical f
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![NeonDB](https://img.shields.io/badge/NeonDB-00E699?style=for-the-badge&logo=postgresql&logoColor=black)
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 ---
 
