@@ -1,11 +1,14 @@
 <div align="center">
 
-# Hi, I'm Michael
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:58a6ff&height=120&section=header" width="100%"/>
+
+# Michael Udochukwu Odoemenam
 
 ### CTO & Lead Software Engineer
 
-*Building enterprise-grade digital products from the ground up -*
-*architecture, infrastructure, and full-stack execution.*
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/umeaclinton)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/umeaclinton)
+![Profile Views](https://komarev.com/ghpvc/?username=umeaclinton&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS)
 
 </div>
 
@@ -13,11 +16,25 @@
 
 ### About Me
 
-I'm a CTO and Lead Software Engineer with a product-first engineering mindset. I design and implement scalable backend systems, CI/CD pipelines, database infrastructure, and production-ready frontends before delegating modular tasks to the engineering team. I set the standard before the first line of team code is written.
+I'm a CTO and Lead Software Engineer who takes full ownership of the technical foundation before a single line of team code is written. I architect database schemas, CI/CD pipelines, authentication systems, and design token infrastructure from scratch - then delegate modular, well-scoped tasks to a disciplined engineering team.
 
-- Currently building **Admos Place** - a full-stack food ordering and restaurant operations platform for Nigeria
-- Focused on **TypeScript**, **Next.js**, **Node.js**, and **PostgreSQL**
+- Currently building **Admos Place** - an enterprise-grade food ordering and restaurant operations platform for Nigeria
+- I establish the architecture, quality gates, and deployment infrastructure that the team builds on top of
+- TypeScript-first across the entire stack
 - Strong bias toward system design, code quality, and engineering governance
+
+---
+
+### Currently Building
+
+**Admos Place** - Full-Stack Food Ordering Platform (Nigeria)
+
+| Layer | Stack |
+| :--- | :--- |
+| Customer Frontend | Next.js 14, TypeScript, Tailwind CSS, Zustand, React Hook Form, Zod |
+| Backend API | Node.js, Express.js, TypeScript, Prisma ORM, JWT Auth, REST |
+| Database | PostgreSQL on Supabase (PgBouncer pooler, dual-URL routing) |
+| DevOps | GitHub Actions CI, Railway (backend), Vercel (frontend) |
 
 ---
 
@@ -61,10 +78,4 @@ I'm a CTO and Lead Software Engineer with a product-first engineering mindset. I
 
 </div>
 
----
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=umeaclinton&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS)
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:0d1117&height=80&section=footer" width="100%"/>
