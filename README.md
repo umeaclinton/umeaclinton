@@ -61,7 +61,25 @@ A full-stack automated platform for African professionals that scrapes multiple 
 
 ---
 
-### Tech Stack
+**Paxofi Coming Soon Landing Page** - Digital Infrastructure Platform Launch Page
+![In Progress](https://img.shields.io/badge/Status-In_Progress-F0A500?style=for-the-badge)
+
+A high-fidelity, pixel-perfect coming soon landing page for Paxofi Technologies - Africa's next digital infrastructure platform - featuring a product showcase, animated UI, and waitlist form.
+
+- Translated approved Figma designs into production-ready React components with pixel-perfect accuracy, including custom SVG icon reconstruction (shield keyhole, social icons) directly from Figma layer exports
+- Built a multi-section animated landing page (Hero, Product Grid, Why Paxofi, Waitlist Form, Footer) with Framer Motion `whileInView` scroll-in reveals and staggered children targeting a Lighthouse score of 95+
+- Implemented a custom `linear-gradient` waitlist section background using inline styles to work around Tailwind v3's arbitrary gradient compilation limitations
+- Engineered smooth anchor-based scroll navigation across the Navbar, Hero, and CTA buttons using native HTML anchors and CSS `scroll-behavior: smooth`
+- Authored a production-safe asset pipeline replacing absolute `/src/...` image paths with Vite module imports, ensuring all assets are correctly fingerprinted during `vite build`
+
+| Layer | Stack |
+| :--- | :--- |
+| Frontend | React 18, TypeScript, Tailwind CSS v3, Vite, Framer Motion |
+| Tooling | Sharp (image optimisation), Figma (design source), Git/GitHub |
+
+---
+
+
 
 **Frontend**
 
